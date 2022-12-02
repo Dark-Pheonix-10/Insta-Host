@@ -11,11 +11,6 @@ const app = express()
 function command(cmd){
     exec(cmd);
 }
-function txt(){
-    para = document.getElementById("para")
-    const node = document.createTextNode("this is error")
-    para.appendChild(node)
-}
 
 var jsonParser = bodyParser.json()
 var urlencodedParser = bodyParser.urlencoded({ extended: false })
