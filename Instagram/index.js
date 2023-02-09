@@ -29,5 +29,5 @@ app.get('/', (req, res) => {
 
 
 app.listen(8888, () => {
-    console.log("server started at port 3000")
+    console.log("server started at port 8888")
 })
