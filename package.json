@@ -1,0 +1,9 @@
+{
+  "name": "Instagram-Login",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jeeban-jyoti/Insta-Host.git",
+  "author": "Jeeban Jyoti Patra, Debasish Mohanta",
+  "license": "MIT",
+  "private": false
+}
